@@ -15,17 +15,18 @@ final class WelcomeScreen extends StatelessWidget {
         width: double.infinity,
         //decoration: const BoxDecoration(color: AppColors.allPrimaryColor),
         child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              SizedBox(
-                height: 40.h,
-              ),
-              Image.asset(
-                Assets.images.appLogo.path,
-                height: 170.h,
-                width: 170.w,
-              ),
-            ]),
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            SizedBox(
+              height: 40.h,
+            ),
+            Image.asset(
+              Assets.images.appLogo.path,
+              height: 170.h,
+              width: 170.w,
+            ),
+          ],
+        ),
       ),
     );
   }
