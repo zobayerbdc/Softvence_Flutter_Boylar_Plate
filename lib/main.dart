@@ -1,16 +1,15 @@
 import 'package:auto_animated/auto_animated.dart';
-import 'package:boylar_plate/loading_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-
 import 'constants/custome_theme.dart';
 import 'gen/colors.gen.dart';
 import 'helpers/all_routes.dart';
 import 'helpers/di.dart';
 import 'helpers/helper_methods.dart';
 import 'helpers/navigation_service.dart';
+import 'loading_screen.dart';
 import 'networks/dio/dio.dart';
 
 void main() async {
@@ -84,6 +83,7 @@ class UtillScreenMobile extends StatelessWidget {
             navigatorKey: NavigationService.navigatorKey,
             onGenerateRoute: RouteGenerator.generateRoute,
             home: Loading(),
+          //  home: HomeScreen(),
           ),
         );
       },
