@@ -1,4 +1,4 @@
-package com.example.boylar_plate
+package com.softvence.boylarplate
 
 import io.flutter.embedding.android.FlutterActivity
 

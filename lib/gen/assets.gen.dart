@@ -29,12 +29,15 @@ class $AssetsImagesGen {
   AssetGenImage get errorImage =>
       const AssetGenImage('assets/images/error_image.png');
 
+  /// File path: assets/images/icon.png
+  AssetGenImage get icon => const AssetGenImage('assets/images/icon.png');
+
   /// File path: assets/images/searchs_new.png
   AssetGenImage get searchsNew =>
       const AssetGenImage('assets/images/searchs_new.png');
 
   /// List of all assets
-  List<AssetGenImage> get values => [appLogo, errorImage, searchsNew];
+  List<AssetGenImage> get values => [appLogo, errorImage, icon, searchsNew];
 }
 
 class $AssetsLottieGen {
